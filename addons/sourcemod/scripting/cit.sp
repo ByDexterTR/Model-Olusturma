@@ -181,8 +181,6 @@ public int Menu_CallBack(Menu menu, MenuAction action, int client, int Position)
 		}
 		else if (strcmp(Item, "4", false) == 0)
 		{
-			delete menu;
-			return;
 		}
 	}
 	else if (action == MenuAction_End)
